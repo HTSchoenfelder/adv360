@@ -11,21 +11,13 @@
         home {
             bindings = <&kp HOME>;
             key-positions = <67 63>;
+            timeout-ms = <200>;
         };
 
         end {
             bindings = <&kp END>;
             key-positions = <67 64>;
-        };
-
-        shift_home {
-            bindings = <&kp RS(HOME)>;
-            key-positions = <67 63 75>;
-        };
-
-        shift_end {
-            bindings = <&kp RS(END)>;
-            key-positions = <67 64 75>;
+            timeout-ms = <200>;
         };
     };
 
